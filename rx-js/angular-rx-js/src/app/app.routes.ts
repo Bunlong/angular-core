@@ -5,6 +5,7 @@ import { FromComponent } from './pages/from/from.component';
 import { MergeMapComponent } from './pages/merge-map/merge-map.component';
 import { CombineLatestComponent } from './pages/combine-latest/combine-latest.component';
 import { FilterComponent } from './pages/filter/filter.component';
+import { MapComponent } from './pages/map/map.component';
 
 export const routes: Routes = [
   {
@@ -26,5 +27,9 @@ export const routes: Routes = [
   {
     component: FilterComponent,
     path: 'filter'
+  },
+  {
+    component: MapComponent,
+    path: 'map'
   },
 ];
