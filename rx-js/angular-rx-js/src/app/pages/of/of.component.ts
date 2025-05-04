@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Observable, of } from 'rxjs';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-of',
