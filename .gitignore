@@ -1,0 +1,46 @@
+# ======= /rx-js/angular-rx-js =======
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/rx-js/angular-rx-js/dist
+/rx-js/angular-rx-js/tmp
+/rx-js/angular-rx-js/out-tsc
+/rx-js/angular-rx-js/bazel-out
+
+# Node
+/rx-js/angular-rx-js/node_modules
+/rx-js/angular-rx-js/npm-debug.log
+/rx-js/angular-rx-js/yarn-error.log
+
+# IDEs and editors
+/rx-js/angular-rx-js/.idea/
+/rx-js/angular-rx-js/.project
+/rx-js/angular-rx-js/.classpath
+/rx-js/angular-rx-js/.c9/
+/rx-js/angular-rx-js/*.launch
+/rx-js/angular-rx-js/.settings/
+/rx-js/angular-rx-js/*.sublime-workspace
+
+# Visual Studio Code
+/rx-js/angular-rx-js/.vscode/*
+/rx-js/angular-rx-js/!.vscode/settings.json
+/rx-js/angular-rx-js/!.vscode/tasks.json
+/rx-js/angular-rx-js/!.vscode/launch.json
+/rx-js/angular-rx-js/!.vscode/extensions.json
+/rx-js/angular-rx-js/.history/*
+
+# Miscellaneous
+/rx-js/angular-rx-js//.angular/cache
+/rx-js/angular-rx-js/.sass-cache/
+/rx-js/angular-rx-js//connect.lock
+/rx-js/angular-rx-js//coverage
+/rx-js/angular-rx-js//libpeerconnection.log
+/rx-js/angular-rx-js/testem.log
+/rx-js/angular-rx-js//typings
+
+# System files
+/rx-js/angular-rx-js/.DS_Store
+/rx-js/angular-rx-js/Thumbs.db
+
+# ====================================
