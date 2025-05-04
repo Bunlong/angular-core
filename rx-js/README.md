@@ -101,6 +101,3 @@ RxJS ផ្តល់ឲ្យយើងនូវ operators មួយចំនួ�
 
 * tap()
 * delay()
-
-<!-- https://www.geeksforgeeks.org/rxjs-operations-in-angular -->
-<!-- https://www.geeksforgeeks.org/how-to-subscribe-to-an-observable-in-angular -->
