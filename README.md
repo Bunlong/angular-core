@@ -9,3 +9,5 @@
 7. Angular Services and Dependency Injection
 8. Angular Forms
 9. RxJS
+
+<!-- sudo sysctl fs.inotify.max_user_watches=524288 -->

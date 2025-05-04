@@ -1,3 +1,10 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { OfComponent } from './pages/of/of.component';
+
+export const routes: Routes = [
+  {
+    component: OfComponent,
+    path: 'of'
+  },
+];
