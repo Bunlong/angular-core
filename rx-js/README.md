@@ -1,22 +1,22 @@
 # RxJS
 
-គ្នាយើងធ្លាប់ឆ្ងល់អត់ថា ម៉េចបានយើងអាចបើក file ដែលមានទំហំ 10GB នៅលើ device ដែលមាន RAM ត្រឹម 4GB បាន?
+Have you ever wondered how you can open a 10GB file on a device with only 4GB of RAM?
 
-គ្នាយើងធ្លាប់ឆ្ងល់អត់ថា ម៉េចបាន Netflix app អាច play ភាពយន្ត (ប្រភេទ 4K ដែលគេផ្ទុកនៅលើ cloud) បានភ្លាមៗនៅពេលដែលយើងចុចប៊ូតុង play? នៅលើ device ដែលមាន RAM ត្រឹម 4GB បាន?
+Have you ever wondered how Netflix app can play a cloud-hosted 4K movie as soon as you press the play button? On a device with only 4GB of RAM?
 
-តើ device របស់យើងគ្រប់គ្រងនូវការ load អ្វីមួយដែលយើងមិនដឹងពីទំហំច្បាស់លាស់យ៉ាងម៉េច?
+How does your device manage to load something that is infinite?
 
-device ធ្វើការ stream នូវ data ហើយ process វាជាកំណាត់តូចៗ។
+It has to stream the data and process it in small chunks.
 
-## តើ stream ជាអ្វី?
+## What is a Stream?
 
-stream គឺជាបណ្តុំនៃ data ដែលយើងមិនដឹងពីទំហំច្បាស់លាស់។
+The stream is a collection of data that is infinite. It is a sequence of data coming in overtime.
 
 ```
 Stream = Array + Infinity
 ```
 
-### ប្រើ Loop
+### Loop
 
 ```
 for (let i = 0; i < infinite; i++) { 
@@ -24,9 +24,9 @@ for (let i = 0; i < infinite; i++) {
 }
 ```
 
-បញ្ហាគឺ ធ្វើម៉េចយើងដឹងថា Loop ឈប់ពេលណា?
+The problem is how do you know when to stop it.
 
-### ប្រើ Observables
+### Observables
 
 ```
 Observable = Array + Infinity + Asynchronous
@@ -49,7 +49,7 @@ observable.subscribe({
 });
 ```
 
-JavaScript observable library ដែល popular គឺ RxJS។
+The most popular Observable libraries in JavaScript is RxJS.
 
 ## RxJS
 
@@ -64,9 +64,7 @@ of(10, 20, 30).subscribe(
 
 ### RxJS Operations
 
-RxJS ផ្តល់ឲ្យយើងនូវ operators មួយចំនួនដែលអាចឲ្យយើង manipulate, transform, combine, and manage observables បាន។
-
-#### RxJS Operations ដែលត្រូវបានគេប្រើច្រើនជាងគេ
+#### Common RxJS Operations
 
 ##### Observable Creation:
 
